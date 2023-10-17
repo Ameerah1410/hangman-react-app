@@ -1,0 +1,49 @@
+.Hangman {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.title {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.paragraph {
+  font-style: italic;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.wrong-guesses {
+  float: left;
+}
+
+.button {
+  margin: 5px;
+  border-radius: 8px;
+  background-color: rgb(147, 220, 233);
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.reset-button {
+  margin: 5px;
+  border-radius: 6px;
+  background-color: rgb(134, 212, 164);
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  border-color: rgb(0, 0, 0);
+}
+
+.help-button {
+  margin: 5px;
+  border-radius: 6px;
+  background-color: rgb(236, 128, 128);
+  text-align: center;
+  cursor: pointer;
+  padding: 8px;
+  border-color: rgb(0, 0, 0);
+  float: right;
+}
